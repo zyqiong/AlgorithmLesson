@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BB857D125E51E4C00CEDA47 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5BB857D025E51E4C00CEDA47 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BB857AB25E51E0A00CEDA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB8578C25E51E0600CEDA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB8579325E51E0600CEDA47;
+			remoteInfo = AlgorithmZyq;
+		};
+		5BB857B625E51E0A00CEDA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB8578C25E51E0600CEDA47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB8579325E51E0600CEDA47;
+			remoteInfo = AlgorithmZyq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BB8579425E51E0600CEDA47 /* AlgorithmZyq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmZyq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB857AA25E51E0A00CEDA47 /* AlgorithmZyqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmZyqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB857B525E51E0A00CEDA47 /* AlgorithmZyqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmZyqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB857D025E51E4C00CEDA47 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BB8579125E51E0600CEDA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB857A725E51E0A00CEDA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB857B225E51E0A00CEDA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BB8578B25E51E0600CEDA47 = {
+			isa = PBXGroup;
+			children = (
+				5BB8579625E51E0600CEDA47 /* AlgorithmZyq */,
+				5BB8579525E51E0600CEDA47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BB8579525E51E0600CEDA47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BB8579425E51E0600CEDA47 /* AlgorithmZyq.app */,
+				5BB857AA25E51E0A00CEDA47 /* AlgorithmZyqTests.xctest */,
+				5BB857B525E51E0A00CEDA47 /* AlgorithmZyqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BB8579625E51E0600CEDA47 /* AlgorithmZyq */ = {
+			isa = PBXGroup;
+			children = (
+				5BB857D025E51E4C00CEDA47 /* main.c */,
+			);
+			path = AlgorithmZyq;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BB8579325E51E0600CEDA47 /* AlgorithmZyq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB857BE25E51E0A00CEDA47 /* Build configuration list for PBXNativeTarget "AlgorithmZyq" */;
+			buildPhases = (
+				5BB8579025E51E0600CEDA47 /* Sources */,
+				5BB8579125E51E0600CEDA47 /* Frameworks */,
+				5BB8579225E51E0600CEDA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgorithmZyq;
+			productName = AlgorithmZyq;
+			productReference = 5BB8579425E51E0600CEDA47 /* AlgorithmZyq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BB857A925E51E0A00CEDA47 /* AlgorithmZyqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB857C125E51E0A00CEDA47 /* Build configuration list for PBXNativeTarget "AlgorithmZyqTests" */;
+			buildPhases = (
+				5BB857A625E51E0A00CEDA47 /* Sources */,
+				5BB857A725E51E0A00CEDA47 /* Frameworks */,
+				5BB857A825E51E0A00CEDA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB857AC25E51E0A00CEDA47 /* PBXTargetDependency */,
+			);
+			name = AlgorithmZyqTests;
+			productName = AlgorithmZyqTests;
+			productReference = 5BB857AA25E51E0A00CEDA47 /* AlgorithmZyqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BB857B425E51E0A00CEDA47 /* AlgorithmZyqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB857C425E51E0A00CEDA47 /* Build configuration list for PBXNativeTarget "AlgorithmZyqUITests" */;
+			buildPhases = (
+				5BB857B125E51E0A00CEDA47 /* Sources */,
+				5BB857B225E51E0A00CEDA47 /* Frameworks */,
+				5BB857B325E51E0A00CEDA47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB857B725E51E0A00CEDA47 /* PBXTargetDependency */,
+			);
+			name = AlgorithmZyqUITests;
+			productName = AlgorithmZyqUITests;
+			productReference = 5BB857B525E51E0A00CEDA47 /* AlgorithmZyqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BB8578C25E51E0600CEDA47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5BB8579325E51E0600CEDA47 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5BB857A925E51E0A00CEDA47 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5BB8579325E51E0600CEDA47;
+					};
+					5BB857B425E51E0A00CEDA47 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5BB8579325E51E0600CEDA47;
+					};
+				};
+			};
+			buildConfigurationList = 5BB8578F25E51E0600CEDA47 /* Build configuration list for PBXProject "AlgorithmZyq" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BB8578B25E51E0600CEDA47;
+			productRefGroup = 5BB8579525E51E0600CEDA47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BB8579325E51E0600CEDA47 /* AlgorithmZyq */,
+				5BB857A925E51E0A00CEDA47 /* AlgorithmZyqTests */,
+				5BB857B425E51E0A00CEDA47 /* AlgorithmZyqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BB8579225E51E0600CEDA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB857A825E51E0A00CEDA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB857B325E51E0A00CEDA47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BB8579025E51E0600CEDA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB857D125E51E4C00CEDA47 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB857A625E51E0A00CEDA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB857B125E51E0A00CEDA47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB857AC25E51E0A00CEDA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB8579325E51E0600CEDA47 /* AlgorithmZyq */;
+			targetProxy = 5BB857AB25E51E0A00CEDA47 /* PBXContainerItemProxy */;
+		};
+		5BB857B725E51E0A00CEDA47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB8579325E51E0600CEDA47 /* AlgorithmZyq */;
+			targetProxy = 5BB857B625E51E0A00CEDA47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5BB857BC25E51E0A00CEDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BB857BD25E51E0A00CEDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BB857BF25E51E0A00CEDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlgorithmZyq/AlgorithmZyq.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Z3YA4329;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AlgorithmZyq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyqiong.AlgorithmZyq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BB857C025E51E0A00CEDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AlgorithmZyq/AlgorithmZyq.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Z3YA4329;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = AlgorithmZyq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyqiong.AlgorithmZyq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BB857C225E51E0A00CEDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Z3YA4329;
+				INFOPLIST_FILE = AlgorithmZyqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyqiong.AlgorithmZyqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgorithmZyq.app/Contents/MacOS/AlgorithmZyq";
+			};
+			name = Debug;
+		};
+		5BB857C325E51E0A00CEDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Z3YA4329;
+				INFOPLIST_FILE = AlgorithmZyqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyqiong.AlgorithmZyqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgorithmZyq.app/Contents/MacOS/AlgorithmZyq";
+			};
+			name = Release;
+		};
+		5BB857C525E51E0A00CEDA47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Z3YA4329;
+				INFOPLIST_FILE = AlgorithmZyqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyqiong.AlgorithmZyqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlgorithmZyq;
+			};
+			name = Debug;
+		};
+		5BB857C625E51E0A00CEDA47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U4Z3YA4329;
+				INFOPLIST_FILE = AlgorithmZyqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyqiong.AlgorithmZyqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlgorithmZyq;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BB8578F25E51E0600CEDA47 /* Build configuration list for PBXProject "AlgorithmZyq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB857BC25E51E0A00CEDA47 /* Debug */,
+				5BB857BD25E51E0A00CEDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB857BE25E51E0A00CEDA47 /* Build configuration list for PBXNativeTarget "AlgorithmZyq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB857BF25E51E0A00CEDA47 /* Debug */,
+				5BB857C025E51E0A00CEDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB857C125E51E0A00CEDA47 /* Build configuration list for PBXNativeTarget "AlgorithmZyqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB857C225E51E0A00CEDA47 /* Debug */,
+				5BB857C325E51E0A00CEDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB857C425E51E0A00CEDA47 /* Build configuration list for PBXNativeTarget "AlgorithmZyqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB857C525E51E0A00CEDA47 /* Debug */,
+				5BB857C625E51E0A00CEDA47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BB8578C25E51E0600CEDA47 /* Project object */;
+}
